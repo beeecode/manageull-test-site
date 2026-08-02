@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Menu | Riverside Coffee Co.</title>
+  <meta name="description" content="See the current menu at Riverside Coffee Co.: single-origin pour-overs, house espresso drinks, cold brew, and fresh-baked food.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600;700&family=Nunito+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#main-content">Skip to main content</a>
+
+  <header class="site-header">
+    <div class="container">
+      <a class="brand" href="index.html">
+        <span class="brand-name">Riverside Coffee Co.</span>
+        <span class="brand-tagline">Ashford Falls, Oregon</span>
+      </a>
+
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="main-nav" aria-label="Toggle navigation menu">
+        <span class="nav-toggle-bar"></span>
+        <span class="nav-toggle-bar"></span>
+        <span class="nav-toggle-bar"></span>
+      </button>
+
+      <nav class="main-nav" id="main-nav" aria-label="Primary">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="menu.html" aria-current="page">Menu</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main-content">
+    <section class="section">
+      <div class="container">
+        <div class="section-header">
+          <h1>Our Menu</h1>
+          <p>
+            Our menu changes with the seasons and the harvest, but a few things stay
+            constant: coffee roasted in-house within the last two weeks, milk from a dairy
+            twenty minutes upriver, and pastries baked fresh each morning by our neighbors
+            at Ashford Falls Bakehouse.
+          </p>
+        </div>
+
+        <div class="menu-group">
+          <h2>Coffee &amp; Espresso Drinks</h2>
+          <ul class="menu-list">
+            <li class="menu-item">
+              <div>
+                <h3 class="menu-item-name">Willow River Pour-Over</h3>
+                <p class="menu-item-desc">Our current single-origin light roast, brewed fresh cup by cup for a bright, tea-like finish.</p>
+              </div>
+            </li>
+            <li class="menu-item">
+              <div>
+                <h3 class="menu-item-name">Riverside Espresso</h3>
+                <p class="menu-item-desc">A house blend of Colombian and Sumatran beans, pulled short for a rich, chocolatey shot.</p>
+              </div>
+            </li>
+            <li class="menu-item">
+              <div>
+                <h3 class="menu-item-name">Cedar Smoke Latte</h3>
+                <p class="menu-item-desc">Espresso with steamed oat milk and a whisper of housemade cedar-smoked syrup.</p>
+              </div>
+            </li>
+            <li class="menu-item">
+              <div>
+                <h3 class="menu-item-name">Nitro Cold Brew</h3>
+                <p class="menu-item-desc">Steeped for eighteen hours and poured on nitro for a naturally sweet, creamy finish, no sugar needed.</p>
+              </div>
+            </li>
+          </ul>
+        </div>
+
+        <div class="menu-group">
+          <h2>Bakery &amp; Food</h2>
+          <ul class="menu-list">
+            <li class="menu-item">
+              <div>
+                <h3 class="menu-item-name">Buttermilk Cardamom Scone</h3>
+                <p class="menu-item-desc">Baked daily by Ashford Falls Bakehouse and served warm with honey butter on the side.</p>
+              </div>
+            </li>
+            <li class="menu-item">
+              <div>
+                <h3 class="menu-item-name">Smoked Salmon Bagel</h3>
+                <p class="menu-item-desc">Toasted everything bagel with herbed cream cheese, cucumber, and river-smoked salmon.</p>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-alt">
+      <div class="container">
+        <div class="section-header">
+          <h2>Curious How It's Made?</h2>
+          <p>Read about the roaster, the farms we buy from, and how a garage hobby turned into a riverside café.</p>
+        </div>
+        <a class="btn" href="about.html">Read Our Story</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-brand-block">
+        <p class="footer-brand">Riverside Coffee Co.</p>
+        <div class="footer-meta">
+          <p>118 Millbrook Lane, Ashford Falls, OR 97401</p>
+          <p>Mon&ndash;Fri 6:30am&ndash;5:00pm &middot; Sat&ndash;Sun 7:00am&ndash;4:00pm</p>
+        </div>
+      </div>
+      <nav aria-label="Footer">
+        <ul style="list-style:none; display:flex; gap:1.25rem; padding:0;">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="menu.html">Menu</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

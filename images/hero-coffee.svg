@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 640" role="img" aria-labelledby="heroTitle">
+  <title id="heroTitle">Illustration of a steaming cup of pour-over coffee on a wooden table beside a sunlit river</title>
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#f6e3c6"/>
+      <stop offset="100%" stop-color="#f1c48f"/>
+    </linearGradient>
+    <linearGradient id="river" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#9fb9a8"/>
+      <stop offset="100%" stop-color="#7a8b69"/>
+    </linearGradient>
+    <linearGradient id="cup" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="100%" stop-color="#f1e3d0"/>
+    </linearGradient>
+    <linearGradient id="coffee" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#8a5a34"/>
+      <stop offset="100%" stop-color="#4a3324"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="800" height="640" fill="url(#sky)"/>
+
+  <circle cx="650" cy="120" r="70" fill="#f4a35c" opacity="0.55"/>
+
+  <path d="M0 430 C 120 390, 220 470, 340 430 C 460 390, 560 460, 680 420 C 740 400, 780 410, 800 420 L800 640 L0 640 Z" fill="url(#river)"/>
+  <path d="M0 470 C 130 440, 240 500, 360 470 C 480 440, 580 500, 700 465 C 750 450, 780 460, 800 470 L800 640 L0 640 Z" fill="#688059" opacity="0.7"/>
+
+  <rect x="0" y="560" width="800" height="80" fill="#6f4e37"/>
+  <rect x="0" y="558" width="800" height="6" fill="#4a3324"/>
+
+  <ellipse cx="400" cy="565" rx="230" ry="18" fill="#3b2a20" opacity="0.18"/>
+
+  <g>
+    <path d="M280 470 h180 l-14 90 a20 20 0 0 1 -20 17 h-112 a20 20 0 0 1 -20 -17 z" fill="url(#cup)" stroke="#e4d3bd" stroke-width="2"/>
+    <ellipse cx="370" cy="470" rx="90" ry="14" fill="url(#coffee)"/>
+    <ellipse cx="370" cy="470" rx="90" ry="14" fill="none" stroke="#3b2a20" stroke-width="2" opacity="0.15"/>
+    <path d="M460 480 c34 4 46 34 26 56 c-14 16 -38 16 -50 6" fill="none" stroke="#6f4e37" stroke-width="10" stroke-linecap="round"/>
+  </g>
+
+  <g stroke="#c9b7a1" stroke-width="6" stroke-linecap="round" fill="none" opacity="0.8">
+    <path d="M340 440 C 330 410, 355 400, 345 370">
+      <animate attributeName="d" dur="4s" repeatCount="indefinite"
+        values="M340 440 C 330 410, 355 400, 345 370;
+                M340 440 C 350 410, 325 400, 335 370;
+                M340 440 C 330 410, 355 400, 345 370"/>
+    </path>
+    <path d="M390 440 C 380 405, 405 395, 395 360">
+      <animate attributeName="d" dur="4.5s" repeatCount="indefinite"
+        values="M390 440 C 380 405, 405 395, 395 360;
+                M390 440 C 400 405, 375 395, 385 360;
+                M390 440 C 380 405, 405 395, 395 360"/>
+    </path>
+  </g>
+
+  <g fill="#4a3324" opacity="0.85">
+    <ellipse cx="150" cy="520" rx="10" ry="7"/>
+    <ellipse cx="172" cy="530" rx="10" ry="7"/>
+    <ellipse cx="140" cy="536" rx="10" ry="7"/>
+    <ellipse cx="620" cy="515" rx="10" ry="7"/>
+    <ellipse cx="642" cy="527" rx="10" ry="7"/>
+  </g>
+</svg>

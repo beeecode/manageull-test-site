@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About | Riverside Coffee Co.</title>
+  <meta name="description" content="The story of Riverside Coffee Co., a small-batch coffee roastery that grew from a garage roaster into a café on the Willow River in Ashford Falls.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600;700&family=Nunito+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#main-content">Skip to main content</a>
+
+  <header class="site-header">
+    <div class="container">
+      <a class="brand" href="index.html">
+        <span class="brand-name">Riverside Coffee Co.</span>
+        <span class="brand-tagline">Ashford Falls, Oregon</span>
+      </a>
+
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="main-nav" aria-label="Toggle navigation menu">
+        <span class="nav-toggle-bar"></span>
+        <span class="nav-toggle-bar"></span>
+        <span class="nav-toggle-bar"></span>
+      </button>
+
+      <nav class="main-nav" id="main-nav" aria-label="Primary">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="menu.html">Menu</a></li>
+          <li><a href="about.html" aria-current="page">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main-content">
+    <section class="section">
+      <div class="container">
+        <div class="section-header">
+          <h1>Our Story</h1>
+        </div>
+
+        <div class="about-content">
+          <div class="about-copy">
+            <p>
+              Riverside Coffee Co. started in 2016 in Priya Nakamura's garage, where a single
+              one-pound sample roaster and a lot of trial and error turned into Saturday-morning
+              pop-up sales at the Ashford Falls farmers market. Within a year, the line for her
+              Willow River blend was longer than the line for produce, and by 2018 she and her
+              brother Dev had signed a lease on a storefront two blocks from the river, where the
+              café still sits today.
+            </p>
+            <p>
+              We buy green coffee through direct-trade relationships with three family farms in
+              Huila, Colombia and Yirgacheffe, Ethiopia, paying well above commodity price and
+              visiting each farm at least once a year. Everything is roasted in small batches on
+              Clementine, our refurbished 1974 drum roaster, so the beans in your bag were almost
+              certainly roasted within the last two weeks.
+            </p>
+            <p>
+              The café itself has become something of a living room for the neighborhood: local
+              painters rotate work on our walls every quarter, the Thursday night folk session has
+              been running since 2019, and our partnership with Ashford Falls Bakehouse means
+              something warm is always coming out of an oven somewhere nearby.
+            </p>
+          </div>
+
+          <div class="about-image">
+            <img src="images/about-roastery.svg" alt="Clementine the drum roaster and burlap sacks of green coffee beans inside the Riverside Coffee Co. roastery">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-alt">
+      <div class="container">
+        <div class="section-header">
+          <h2>Come Say Hello</h2>
+          <p>We're open every day of the week &mdash; find our hours, address, and how to reach us.</p>
+        </div>
+        <a class="btn" href="contact.html">Get in Touch</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-brand-block">
+        <p class="footer-brand">Riverside Coffee Co.</p>
+        <div class="footer-meta">
+          <p>118 Millbrook Lane, Ashford Falls, OR 97401</p>
+          <p>Mon&ndash;Fri 6:30am&ndash;5:00pm &middot; Sat&ndash;Sun 7:00am&ndash;4:00pm</p>
+        </div>
+      </div>
+      <nav aria-label="Footer">
+        <ul style="list-style:none; display:flex; gap:1.25rem; padding:0;">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="menu.html">Menu</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
